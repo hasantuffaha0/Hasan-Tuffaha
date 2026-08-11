@@ -1,0 +1,5 @@
+Write to create react project
+    npm create vite@latest my-project -- --template react
+
+Write to create tailwindcss projects
+    npm install tailwindcss @tailwindcss/vite
