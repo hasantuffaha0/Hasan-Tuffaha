@@ -20,7 +20,7 @@ const InnerPro = ({ Service, setService }) => {
             onClick={() => setService()}
           >
             <div
-              className="relative max-w-7xl w-full max-h-[90vh] overflow-y-auto bg-white dark:bg-[#121118] border border-purple-300 dark:border-purple-500/40 p-6 md:p-8 rounded-3xl shadow-2xl text-gray-900 dark:text-white transition-colors duration-300 my-auto custom-scrollbar"
+              className="relative max-w-7xl w-full max-h-[70vh] lg:max-h-[90vh] overflow-y-auto bg-white dark:bg-[#121118] border border-purple-300 dark:border-purple-500/40 p-6 md:p-8 rounded-3xl shadow-2xl text-gray-900 dark:text-white transition-colors duration-300 my-auto custom-scrollbar"
               onClick={(e) => e.stopPropagation()}
             >
               <button
