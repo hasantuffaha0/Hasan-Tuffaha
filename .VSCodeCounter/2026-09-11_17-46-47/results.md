@@ -1,10 +1,10 @@
 # Summary
 
-Date : 2026-09-11 05:51:51
+Date : 2026-09-11 17:46:47
 
 Directory c:\\Users\\Hasan Tuffaha\\OneDrive\\Documents\\Hasan Tuffaha
 
-Total : 49 files,  12363 codes, 23 comments, 387 blanks, all 12773 lines
+Total : 47 files,  12016 codes, 21 comments, 353 blanks, all 12390 lines
 
 Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
 
@@ -12,7 +12,7 @@ Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-
 | language | files | code | comment | blank | total |
 | :--- | ---: | ---: | ---: | ---: | ---: |
 | JSON | 4 | 8,825 | 0 | 3 | 8,828 |
-| JavaScript JSX | 36 | 3,294 | 20 | 361 | 3,675 |
+| JavaScript JSX | 34 | 2,947 | 18 | 327 | 3,292 |
 | PostCSS | 1 | 144 | 1 | 7 | 152 |
 | JavaScript | 4 | 59 | 2 | 6 | 67 |
 | HTML | 1 | 14 | 0 | 0 | 14 |
@@ -23,21 +23,19 @@ Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-
 ## Directories
 | path | files | code | comment | blank | total |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| . | 49 | 12,363 | 23 | 387 | 12,773 |
+| . | 47 | 12,016 | 21 | 353 | 12,390 |
 | . (Files) | 8 | 8,785 | 0 | 13 | 8,798 |
 | public | 1 | 10 | 0 | 2 | 12 |
-| src | 40 | 3,568 | 23 | 372 | 3,963 |
+| src | 38 | 3,221 | 21 | 338 | 3,580 |
 | src (Files) | 5 | 217 | 3 | 21 | 241 |
-| src\\components | 33 | 3,240 | 20 | 350 | 3,610 |
+| src\\components | 31 | 2,893 | 18 | 316 | 3,227 |
 | src\\components\\About | 3 | 770 | 2 | 102 | 874 |
 | src\\components\\Background | 3 | 186 | 9 | 32 | 227 |
 | src\\components\\Hero | 7 | 766 | 6 | 75 | 847 |
 | src\\components\\Navbar | 8 | 276 | 1 | 38 | 315 |
-| src\\components\\Projects | 4 | 254 | 1 | 25 | 280 |
+| src\\components\\Projects | 4 | 299 | 0 | 32 | 331 |
 | src\\components\\Services | 3 | 382 | 0 | 20 | 402 |
-| src\\components\\Skills | 5 | 606 | 1 | 58 | 665 |
-| src\\components\\Skills (Files) | 3 | 214 | 0 | 17 | 231 |
-| src\\components\\Skills\\ui | 2 | 392 | 1 | 41 | 434 |
+| src\\components\\Skills | 3 | 214 | 0 | 17 | 231 |
 | src\\lib | 1 | 5 | 0 | 1 | 6 |
 | src\\locales | 1 | 106 | 0 | 0 | 106 |
 

@@ -6,6 +6,7 @@ import Row from "./components/Background/Rows";
 import Mainskills from './components/Skills/MainSkills';
 import MainServ from './components/Services/MainServices';
 import MainPro from './components/Projects/MainProjects';
+import MainHire from './components/Hire/MainHire';
 
 function Home() {
   return (
@@ -33,6 +34,10 @@ function Home() {
       
       <div id="about" className="min-h-screen bg-slate-100 dark:bg-black relative z-10">
         <MainPro />
+      </div>
+
+      <div id="about" className="min-h-screen bg-slate-100 dark:bg-black relative z-10">
+        <MainHire />
       </div>
     </div>
   );

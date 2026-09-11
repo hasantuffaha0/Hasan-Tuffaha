@@ -1,0 +1,37 @@
+Date : 2026-09-11 17:52:05
+Directory : c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src
+Total : 7 files,  328 codes, 3 comments, 22 blanks, all 353 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| PostCSS        |          1 |        144 |          1 |          7 |        152 |
+| JSON           |          1 |        106 |          0 |          0 |        106 |
+| JavaScript JSX |          3 |         54 |          0 |         11 |         65 |
+| JavaScript     |          2 |         24 |          2 |          4 |         30 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                        | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                           |          7 |        328 |          3 |         22 |        353 |
+| . (Files)                                                                   |          5 |        217 |          3 |         21 |        241 |
+| lib                                                                         |          1 |          5 |          0 |          1 |          6 |
+| locales                                                                     |          1 |        106 |          0 |          0 |        106 |
++-----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                    | language       | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\App.jsx         | JavaScript JSX |          9 |          0 |          3 |         12 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\Home.jsx        | JavaScript JSX |         35 |          0 |          6 |         41 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\i18n.js         | JavaScript     |         19 |          2 |          3 |         24 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\index.css       | PostCSS        |        144 |          1 |          7 |        152 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\lib\utils.js    | JavaScript     |          5 |          0 |          1 |          6 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\locales\ar.json | JSON           |        106 |          0 |          0 |        106 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\main.jsx        | JavaScript JSX |         10 |          0 |          2 |         12 |
+| Total                                                                       |                |        328 |          3 |         22 |        353 |
++-----------------------------------------------------------------------------+----------------+------------+------------+------------+------------+

@@ -1,26 +1,16 @@
 # Details
 
-Date : 2026-09-11 05:51:51
+Date : 2026-09-11 17:51:57
 
-Directory c:\\Users\\Hasan Tuffaha\\OneDrive\\Documents\\Hasan Tuffaha
+Directory c:\\Users\\Hasan Tuffaha\\OneDrive\\Documents\\Hasan Tuffaha\\src\\components
 
-Total : 49 files,  12363 codes, 23 comments, 387 blanks, all 12773 lines
+Total : 31 files,  2893 codes, 18 comments, 316 blanks, all 3227 lines
 
 [Summary](results.md) / Details / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
 
 ## Files
 | filename | language | code | comment | blank | total |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| [README.md](/README.md) | Markdown | 9 | 0 | 8 | 17 |
-| [components.json](/components.json) | JSON | 27 | 0 | 1 | 28 |
-| [eslint.config.js](/eslint.config.js) | JavaScript | 20 | 0 | 1 | 21 |
-| [index.html](/index.html) | HTML | 14 | 0 | 0 | 14 |
-| [jsconfig.json](/jsconfig.json) | JSON with Comments | 8 | 0 | 0 | 8 |
-| [package-lock.json](/package-lock.json) | JSON | 8,645 | 0 | 1 | 8,646 |
-| [package.json](/package.json) | JSON | 47 | 0 | 1 | 48 |
-| [public/logo.svg](/public/logo.svg) | XML | 10 | 0 | 2 | 12 |
-| [src/App.jsx](/src/App.jsx) | JavaScript JSX | 9 | 0 | 3 | 12 |
-| [src/Home.jsx](/src/Home.jsx) | JavaScript JSX | 35 | 0 | 6 | 41 |
 | [src/components/About/MagicBento.jsx](/src/components/About/MagicBento.jsx) | JavaScript JSX | 625 | 2 | 87 | 714 |
 | [src/components/About/MainAbout.jsx](/src/components/About/MainAbout.jsx) | JavaScript JSX | 131 | 0 | 12 | 143 |
 | [src/components/About/titles.jsx](/src/components/About/titles.jsx) | JavaScript JSX | 14 | 0 | 3 | 17 |
@@ -43,22 +33,14 @@ Total : 49 files,  12363 codes, 23 comments, 387 blanks, all 12773 lines
 | [src/components/Navbar/MobileNavLinks.jsx](/src/components/Navbar/MobileNavLinks.jsx) | JavaScript JSX | 48 | 0 | 4 | 52 |
 | [src/components/Navbar/ModsChange.jsx](/src/components/Navbar/ModsChange.jsx) | JavaScript JSX | 33 | 0 | 5 | 38 |
 | [src/components/Projects/CardPro.jsx](/src/components/Projects/CardPro.jsx) | JavaScript JSX | 117 | 0 | 7 | 124 |
-| [src/components/Projects/InnerPhotoProjects.jsx](/src/components/Projects/InnerPhotoProjects.jsx) | JavaScript JSX | 23 | 1 | 3 | 27 |
+| [src/components/Projects/InnerPhotoProjects.jsx](/src/components/Projects/InnerPhotoProjects.jsx) | JavaScript JSX | 68 | 0 | 11 | 79 |
 | [src/components/Projects/InnerPro.jsx](/src/components/Projects/InnerPro.jsx) | JavaScript JSX | 81 | 0 | 10 | 91 |
-| [src/components/Projects/MainProjects.jsx](/src/components/Projects/MainProjects.jsx) | JavaScript JSX | 33 | 0 | 5 | 38 |
+| [src/components/Projects/MainProjects.jsx](/src/components/Projects/MainProjects.jsx) | JavaScript JSX | 33 | 0 | 4 | 37 |
 | [src/components/Services/Cards.jsx](/src/components/Services/Cards.jsx) | JavaScript JSX | 222 | 0 | 5 | 227 |
 | [src/components/Services/InnerPage.jsx](/src/components/Services/InnerPage.jsx) | JavaScript JSX | 127 | 0 | 10 | 137 |
 | [src/components/Services/MainServices.jsx](/src/components/Services/MainServices.jsx) | JavaScript JSX | 33 | 0 | 5 | 38 |
 | [src/components/Skills/MainSkills.jsx](/src/components/Skills/MainSkills.jsx) | JavaScript JSX | 66 | 0 | 7 | 73 |
 | [src/components/Skills/Skills.jsx](/src/components/Skills/Skills.jsx) | JavaScript JSX | 59 | 0 | 4 | 63 |
 | [src/components/Skills/skillscharts.jsx](/src/components/Skills/skillscharts.jsx) | JavaScript JSX | 89 | 0 | 6 | 95 |
-| [src/components/Skills/ui/card.jsx](/src/components/Skills/ui/card.jsx) | JavaScript JSX | 105 | 0 | 10 | 115 |
-| [src/components/Skills/ui/chart.jsx](/src/components/Skills/ui/chart.jsx) | JavaScript JSX | 287 | 1 | 31 | 319 |
-| [src/i18n.js](/src/i18n.js) | JavaScript | 19 | 2 | 3 | 24 |
-| [src/index.css](/src/index.css) | PostCSS | 144 | 1 | 7 | 152 |
-| [src/lib/utils.js](/src/lib/utils.js) | JavaScript | 5 | 0 | 1 | 6 |
-| [src/locales/ar.json](/src/locales/ar.json) | JSON | 106 | 0 | 0 | 106 |
-| [src/main.jsx](/src/main.jsx) | JavaScript JSX | 10 | 0 | 2 | 12 |
-| [vite.config.js](/vite.config.js) | JavaScript | 15 | 0 | 1 | 16 |
 
 [Summary](results.md) / Details / [Diff Summary](diff.md) / [Diff Details](diff-details.md)

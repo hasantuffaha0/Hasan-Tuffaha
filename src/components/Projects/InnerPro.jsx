@@ -83,7 +83,7 @@ const InnerPro = ({ Service, setService }) => {
           </div>,
           document.body,
         )}
-      <InnerPhoto photo={imageOver} setPhoto={setImageOver} />
+      <InnerPhoto photo={imageOver} setPhoto={setImageOver} project={Service} />
     </>
   );
 };

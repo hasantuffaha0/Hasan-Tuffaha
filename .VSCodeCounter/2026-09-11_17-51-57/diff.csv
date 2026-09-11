@@ -1,0 +1,18 @@
+"filename", "language", "JSON with Comments", "JavaScript", "HTML", "JSON", "XML", "Markdown", "JavaScript JSX", "PostCSS", "comment", "blank", "total"
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\README.md", "Markdown", 0, 0, 0, 0, 0, -9, 0, 0, 0, -8, -17
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\components.json", "JSON", 0, 0, 0, -27, 0, 0, 0, 0, 0, -1, -28
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\eslint.config.js", "JavaScript", 0, -20, 0, 0, 0, 0, 0, 0, 0, -1, -21
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\index.html", "HTML", 0, 0, -14, 0, 0, 0, 0, 0, 0, 0, -14
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\jsconfig.json", "JSON with Comments", -8, 0, 0, 0, 0, 0, 0, 0, 0, 0, -8
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\package-lock.json", "JSON", 0, 0, 0, -8645, 0, 0, 0, 0, 0, -1, -8646
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\package.json", "JSON", 0, 0, 0, -47, 0, 0, 0, 0, 0, -1, -48
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\public\logo.svg", "XML", 0, 0, 0, 0, -10, 0, 0, 0, 0, -2, -12
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\App.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, -9, 0, 0, -3, -12
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\Home.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, -35, 0, 0, -6, -41
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\i18n.js", "JavaScript", 0, -19, 0, 0, 0, 0, 0, 0, -2, -3, -24
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\index.css", "PostCSS", 0, 0, 0, 0, 0, 0, 0, -144, -1, -7, -152
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\lib\utils.js", "JavaScript", 0, -5, 0, 0, 0, 0, 0, 0, 0, -1, -6
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\locales\ar.json", "JSON", 0, 0, 0, -106, 0, 0, 0, 0, 0, 0, -106
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\main.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, -10, 0, 0, -2, -12
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\vite.config.js", "JavaScript", 0, -15, 0, 0, 0, 0, 0, 0, 0, -1, -16
+"Total", "-", -8, -59, -14, -8825, -10, -9, -54, -144, -3, -37, -9163
