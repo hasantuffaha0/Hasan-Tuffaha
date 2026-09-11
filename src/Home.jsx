@@ -4,7 +4,8 @@ import MainAbout from "./components/About/MainAbout";
 import Back from "./components/Background/Backgrounds";
 import Row from "./components/Background/Rows";
 import Mainskills from './components/Skills/MainSkills';
-import MainServ from './components/Services/MainServices'
+import MainServ from './components/Services/MainServices';
+import MainPro from './components/Projects/MainProjects';
 
 function Home() {
   return (
@@ -30,6 +31,9 @@ function Home() {
         <MainServ />
       </div>
       
+      <div id="about" className="min-h-screen bg-slate-100 dark:bg-black relative z-10">
+        <MainPro />
+      </div>
     </div>
   );
 }
