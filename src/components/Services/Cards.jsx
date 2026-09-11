@@ -200,12 +200,12 @@ const MainCard = ({ Service }) => {
 
                 <div className="flex items-center gap-3 mb-2">
                   <Icon className="text-purple-600 dark:text-purple-400 text-2xl shrink-0" />
-                  <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-300 transition-colors">
+                  <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-300 transition-colors line-clamp-1">
                     {t(service.title)}
                   </h3>
                 </div>
 
-                <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+                <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed line-clamp-1">
                   {t(service.shortDesc)}
                 </p>
               </div>

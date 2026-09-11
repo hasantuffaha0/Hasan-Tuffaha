@@ -20,7 +20,7 @@ const MainPro = () => {
   }, [selectedService]);
 
   return (
-    <section className="py-16 px-4 max-w-6xl mx-auto transition-colors duration-300">
+    <section className="py-16 px-4 max-w-7xl mx-auto transition-colors duration-300">
       <TitleSections
         prim={t("FEATURED WORK")}
         secon={t("Bringing concepts to life through code")}
