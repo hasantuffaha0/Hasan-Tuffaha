@@ -1,0 +1,96 @@
+Date : 2026-09-11 05:51:51
+Directory : c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha
+Total : 49 files,  12363 codes, 23 comments, 387 blanks, all 12773 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JSON               |          4 |      8,825 |          0 |          3 |      8,828 |
+| JavaScript JSX     |         36 |      3,294 |         20 |        361 |      3,675 |
+| PostCSS            |          1 |        144 |          1 |          7 |        152 |
+| JavaScript         |          4 |         59 |          2 |          6 |         67 |
+| HTML               |          1 |         14 |          0 |          0 |         14 |
+| XML                |          1 |         10 |          0 |          2 |         12 |
+| Markdown           |          1 |          9 |          0 |          8 |         17 |
+| JSON with Comments |          1 |          8 |          0 |          0 |          8 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                   | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                      |         49 |     12,363 |         23 |        387 |     12,773 |
+| . (Files)                                                                                              |          8 |      8,785 |          0 |         13 |      8,798 |
+| public                                                                                                 |          1 |         10 |          0 |          2 |         12 |
+| src                                                                                                    |         40 |      3,568 |         23 |        372 |      3,963 |
+| src (Files)                                                                                            |          5 |        217 |          3 |         21 |        241 |
+| src\components                                                                                         |         33 |      3,240 |         20 |        350 |      3,610 |
+| src\components\About                                                                                   |          3 |        770 |          2 |        102 |        874 |
+| src\components\Background                                                                              |          3 |        186 |          9 |         32 |        227 |
+| src\components\Hero                                                                                    |          7 |        766 |          6 |         75 |        847 |
+| src\components\Navbar                                                                                  |          8 |        276 |          1 |         38 |        315 |
+| src\components\Projects                                                                                |          4 |        254 |          1 |         25 |        280 |
+| src\components\Services                                                                                |          3 |        382 |          0 |         20 |        402 |
+| src\components\Skills                                                                                  |          5 |        606 |          1 |         58 |        665 |
+| src\components\Skills (Files)                                                                          |          3 |        214 |          0 |         17 |        231 |
+| src\components\Skills\ui                                                                               |          2 |        392 |          1 |         41 |        434 |
+| src\lib                                                                                                |          1 |          5 |          0 |          1 |          6 |
+| src\locales                                                                                            |          1 |        106 |          0 |          0 |        106 |
++--------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                                               | language           | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\README.md                                      | Markdown           |          9 |          0 |          8 |         17 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\components.json                                | JSON               |         27 |          0 |          1 |         28 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\eslint.config.js                               | JavaScript         |         20 |          0 |          1 |         21 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\index.html                                     | HTML               |         14 |          0 |          0 |         14 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\jsconfig.json                                  | JSON with Comments |          8 |          0 |          0 |          8 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\package-lock.json                              | JSON               |      8,645 |          0 |          1 |      8,646 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\package.json                                   | JSON               |         47 |          0 |          1 |         48 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\public\logo.svg                                | XML                |         10 |          0 |          2 |         12 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\App.jsx                                    | JavaScript JSX     |          9 |          0 |          3 |         12 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\Home.jsx                                   | JavaScript JSX     |         35 |          0 |          6 |         41 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\About\MagicBento.jsx            | JavaScript JSX     |        625 |          2 |         87 |        714 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\About\MainAbout.jsx             | JavaScript JSX     |        131 |          0 |         12 |        143 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\About\titles.jsx                | JavaScript JSX     |         14 |          0 |          3 |         17 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Background\Background.jsx       | JavaScript JSX     |        140 |          9 |         22 |        171 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Background\Backgrounds.jsx      | JavaScript JSX     |         27 |          0 |          8 |         35 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Background\Rows.jsx             | JavaScript JSX     |         19 |          0 |          2 |         21 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Hero\FreeLanceAvailable.jsx     | JavaScript JSX     |         15 |          0 |          2 |         17 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Hero\Hero.jsx                   | JavaScript JSX     |         51 |          0 |          4 |         55 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Hero\HeroIcons.jsx              | JavaScript JSX     |         36 |          0 |          3 |         39 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Hero\Icons.jsx                  | JavaScript JSX     |         26 |          0 |          3 |         29 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Hero\MainHero.jsx               | JavaScript JSX     |         14 |          0 |          2 |         16 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Hero\PhotoMain.jsx              | JavaScript JSX     |         46 |          0 |          8 |         54 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Hero\ProfileCard.jsx            | JavaScript JSX     |        578 |          6 |         53 |        637 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Navbar\ButtonHire.jsx           | JavaScript JSX     |          8 |          0 |          1 |          9 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Navbar\ButtonTrans.jsx          | JavaScript JSX     |         78 |          0 |         14 |         92 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Navbar\ItemsNav.jsx             | JavaScript JSX     |         26 |          0 |          3 |         29 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Navbar\Logo.jsx                 | JavaScript JSX     |          8 |          0 |          1 |          9 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Navbar\MainNavBar.jsx           | JavaScript JSX     |         40 |          1 |          5 |         46 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Navbar\MobileNav.jsx            | JavaScript JSX     |         35 |          0 |          5 |         40 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Navbar\MobileNavLinks.jsx       | JavaScript JSX     |         48 |          0 |          4 |         52 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Navbar\ModsChange.jsx           | JavaScript JSX     |         33 |          0 |          5 |         38 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Projects\CardPro.jsx            | JavaScript JSX     |        117 |          0 |          7 |        124 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Projects\InnerPhotoProjects.jsx | JavaScript JSX     |         23 |          1 |          3 |         27 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Projects\InnerPro.jsx           | JavaScript JSX     |         81 |          0 |         10 |         91 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Projects\MainProjects.jsx       | JavaScript JSX     |         33 |          0 |          5 |         38 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Services\Cards.jsx              | JavaScript JSX     |        222 |          0 |          5 |        227 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Services\InnerPage.jsx          | JavaScript JSX     |        127 |          0 |         10 |        137 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Services\MainServices.jsx       | JavaScript JSX     |         33 |          0 |          5 |         38 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Skills\MainSkills.jsx           | JavaScript JSX     |         66 |          0 |          7 |         73 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Skills\Skills.jsx               | JavaScript JSX     |         59 |          0 |          4 |         63 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Skills\skillscharts.jsx         | JavaScript JSX     |         89 |          0 |          6 |         95 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Skills\ui\card.jsx              | JavaScript JSX     |        105 |          0 |         10 |        115 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Skills\ui\chart.jsx             | JavaScript JSX     |        287 |          1 |         31 |        319 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\i18n.js                                    | JavaScript         |         19 |          2 |          3 |         24 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\index.css                                  | PostCSS            |        144 |          1 |          7 |        152 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\lib\utils.js                               | JavaScript         |          5 |          0 |          1 |          6 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\locales\ar.json                            | JSON               |        106 |          0 |          0 |        106 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\main.jsx                                   | JavaScript JSX     |         10 |          0 |          2 |         12 |
+| c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\vite.config.js                                 | JavaScript         |         15 |          0 |          1 |         16 |
+| Total                                                                                                  |                    |     12,363 |         23 |        387 |     12,773 |
++--------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
