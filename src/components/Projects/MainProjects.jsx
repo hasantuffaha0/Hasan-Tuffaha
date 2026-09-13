@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import MainCard from "./CardPro";
-import TitleSections from "../About/Titles";
+import TitleSections from "../About/titles";
 import { useTranslation } from "react-i18next";
 import InnerPro from "./InnerPro";
 

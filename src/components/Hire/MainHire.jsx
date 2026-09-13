@@ -1,4 +1,4 @@
-import TitleSections from "../About/Titles";
+import TitleSections from "../About/titles";
 import { useTranslation } from "react-i18next";
 import MessageIMG from "../../assets/Mailbox-amico.png";
 import MainForm from "./MainForm";
