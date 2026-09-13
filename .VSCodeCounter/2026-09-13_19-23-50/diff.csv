@@ -1,0 +1,32 @@
+"filename", "language", "JavaScript", "HTML", "JSON", "JavaScript JSX", "JSON with Comments", "Markdown", "XML", "comment", "blank", "total"
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\README.md", "Markdown", 0, 0, 0, 0, 0, 9, 0, 0, 8, 17
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\components.json", "JSON", 0, 0, 27, 0, 0, 0, 0, 0, 1, 28
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\eslint.config.js", "JavaScript", 20, 0, 0, 0, 0, 0, 0, 0, 1, 21
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\index.html", "HTML", 0, 14, 0, 0, 0, 0, 0, 0, 0, 14
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\jsconfig.json", "JSON with Comments", 0, 0, 0, 0, 8, 0, 0, 0, 0, 8
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\package-lock.json", "JSON", 0, 0, 8675, 0, 0, 0, 0, 0, 1, 8676
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\package.json", "JSON", 0, 0, 48, 0, 0, 0, 0, 0, 1, 49
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\public\logo.svg", "XML", 0, 0, 0, 0, 0, 0, 10, 0, 2, 12
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\Home.jsx", "JavaScript JSX", 0, 0, 0, 35, 0, 0, 0, 0, 4, 39
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\About\MainAbout.jsx", "JavaScript JSX", 0, 0, 0, 10, 0, 0, 0, 0, -2, 8
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Footer\MainFooter.jsx", "JavaScript JSX", 0, 0, 0, 74, 0, 0, 0, 0, 5, 79
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Hero\Hero.jsx", "JavaScript JSX", 0, 0, 0, 6, 0, 0, 0, 0, 1, 7
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Hero\ProfileCard.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 0, 1, 1, 2
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Hire\Inputs.jsx", "JavaScript JSX", 0, 0, 0, 49, 0, 0, 0, 0, 4, 53
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Hire\MainForm.jsx", "JavaScript JSX", 0, 0, 0, 80, 0, 0, 0, 0, 13, 93
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Hire\MainHire.jsx", "JavaScript JSX", 0, 0, 0, 36, 0, 0, 0, 0, 5, 41
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Navbar\ButtonHire.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Navbar\ItemsNav.jsx", "JavaScript JSX", 0, 0, 0, 25, 0, 0, 0, 0, 5, 30
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Navbar\MainNavBar.jsx", "JavaScript JSX", 0, 0, 0, 9, 0, 0, 0, -1, 1, 9
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Projects\CardPro.jsx", "JavaScript JSX", 0, 0, 0, -24, 0, 0, 0, 0, 0, -24
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Projects\InnerPhotoProjects.jsx", "JavaScript JSX", 0, 0, 0, 4, 0, 0, 0, 0, 0, 4
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Projects\InnerPro.jsx", "JavaScript JSX", 0, 0, 0, 1, 0, 0, 0, 0, -2, -1
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Projects\MainProjects.jsx", "JavaScript JSX", 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Services\Cards.jsx", "JavaScript JSX", 0, 0, 0, 1, 0, 0, 0, 0, 0, 1
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Services\InnerPage.jsx", "JavaScript JSX", 0, 0, 0, 1, 0, 0, 0, 0, 0, 1
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Services\MainServices.jsx", "JavaScript JSX", 0, 0, 0, 2, 0, 0, 0, 0, 1, 3
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Skills\MainSkills.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\components\Skills\skillscharts.jsx", "JavaScript JSX", 0, 0, 0, -89, 0, 0, 0, 0, -6, -95
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\src\locales\ar.json", "JSON", 0, 0, 18, 0, 0, 0, 0, 0, 0, 18
+"c:\Users\Hasan Tuffaha\OneDrive\Documents\Hasan Tuffaha\vite.config.js", "JavaScript", 15, 0, 0, 0, 0, 0, 0, 0, 1, 16
+"Total", "-", 35, 14, 8768, 223, 8, 9, 10, 0, 48, 9115

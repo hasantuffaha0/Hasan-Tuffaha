@@ -1,52 +1,73 @@
 import { useTranslation } from "react-i18next";
-import React from "react";
+import React, { useRef, useEffect } from "react";
 
 const Links = [
-  {
-    link: "About",
-  },
-  {
-    link: "Skills",
-  },
-  {
-    link: "Services",
-  },
-  {
-    link: "Projects",
-  },
-  {
-    link: "Content",
-  },
+  { link: "About", href: "#about" },
+  { link: "Skills", href: "#skills" },
+  { link: "Projects", href: "#projects" },
+  { link: "Services", href: "#services" },
+  { link: "Content", href: "#hire" },
 ];
 
-const MobileNav = ({ open }) => {
-    const { t } = useTranslation();
+const MobileNav = ({ open, setOpen }) => {
+  const { t } = useTranslation();
+  const navRef = useRef(null);
 
-    return (
-        <div
-        className={`${open ? "w-50 h-50 top-15 rtl:left-5 ltr:right-5" : "w-0 h-0 top-7 rtl:left-6 ltr:right-6"} bg-[#f3f4f6]/90 dark:bg-[#252533] text-purple-900 dark:text-purple-400 backdrop-blur-md border border-purple-500/20 shadow-lg shadow-purple-500/20 hover:border-purple-400/30 text-lg flex flex-col justify-center gap-1 items-center rounded-xl transition-all duration-400 absolute`}
-      >
-        {Links.map(({ link }, index) => (
-          <React.Fragment key={index}>
-            <a
-              className={`w-[85%] text-center hover:text-[#252533] dark:hover:text-purple-800 transition-all duration-200 ${
-                open ? "scale-100 opacity-100" : "scale-0 opacity-0"
+  useEffect(() => {
+    if (!open) return;
+
+    const handleClickOutside = (e) => {
+      if (navRef.current && !navRef.current.contains(e.target)) {
+        setOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [open, setOpen]);
+
+  const handleLinkClick = () => {
+    setOpen(false);
+  };
+
+  return (
+    <div
+      ref={navRef}
+      className={`${
+        open
+          ? "max-h-96 opacity-100 scale-100 pointer-events-auto"
+          : "max-h-0 opacity-0 scale-95 pointer-events-none"
+      } absolute top-14 rtl:left-5 ltr:right-5 w-56 origin-top
+      bg-[#f3f4f6]/90 dark:bg-[#252533] backdrop-blur-md
+      border border-purple-500/20 shadow-lg shadow-purple-500/20
+      hover:border-purple-400/30 rounded-xl overflow-hidden
+      transition-all duration-300 ease-out flex flex-col`}
+    >
+      {Links.map(({ link, href }, index) => (
+        <React.Fragment key={link}>
+          <a
+            href={href}
+            onClick={handleLinkClick}
+            style={{ transitionDelay: open ? `${index * 60}ms` : "0ms" }}
+            className={`w-full text-center py-3 text-lg font-medium
+              text-purple-900 dark:text-purple-400
+              hover:text-white hover:bg-purple-500/80
+              dark:hover:text-white dark:hover:bg-purple-700/80
+              transition-all duration-200 ${
+                open
+                  ? "translate-y-0 opacity-100"
+                  : "-translate-y-2 opacity-0"
               }`}
-              href="#"
-            >
-              {t(link)}
-            </a>
-            {index !== Links.length - 1 && (
-              <span
-                className={`w-[85%] h-px bg-purple-900/30 dark:bg-black transition-all duration-100 ${
-                  open ? "scale-100 opacity-100" : "scale-0 opacity-0"
-                }`}
-              />
-            )}
-          </React.Fragment>
-        ))}
-      </div>
-    )
-}
+          >
+            {t(link)}
+          </a>
+          {index !== Links.length - 1 && (
+            <span className="mx-auto w-[85%] h-px bg-purple-900/20 dark:bg-purple-400/10" />
+          )}
+        </React.Fragment>
+      ))}
+    </div>
+  );
+};
 
-export default MobileNav
+export default MobileNav;

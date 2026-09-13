@@ -431,7 +431,8 @@ const ProfileCardComponent = ({
   return (
     <div
       ref={wrapRef}
-      className={`relative touch-none ${className}`.trim()}
+      // تم تغيير touch-none إلى touch-pan-y عشان الموبايل يسكرول بحرية بدون ما صباع المستخدم يمسك في الكارت
+      className={`relative touch-pan-y ${className}`.trim()}
       style={{
         perspective: "500px",
         transform: "translate3d(0, 0, 0.1px)",
@@ -499,11 +500,11 @@ const ProfileCardComponent = ({
             <div
               className="overflow-visible backface-hidden"
               style={{
-                // في اللايت مود بنلغي الـ mix-blend-mode عشان الألوان تظهر طبيعية، وفي الدارك مود بنسيبه
-                mixBlendMode: "normal", 
+                mixBlendMode: "normal",
                 transform: "translateZ(2px)",
                 gridArea: "1 / -1",
                 borderRadius: cardRadius,
+                // منع التداخل اللمسي المباشر على طبقة الصورة الصافية عشان السكرول يعدي من فوقها بسلام على الموبايل
                 pointerEvents: "none",
               }}
             >

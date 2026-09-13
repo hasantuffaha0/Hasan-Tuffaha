@@ -32,7 +32,7 @@ const MobileElementNav = () => {
           />
         </button>
       </div>
-      <MobileNav open={open}/>
+      <MobileNav MobileNav open={open} setOpen={setOpen}/>
     </div>
   );
 };
