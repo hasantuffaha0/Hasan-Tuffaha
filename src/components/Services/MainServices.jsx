@@ -21,6 +21,8 @@ const MainServ = () => {
 
   return (
     <section className="py-16 px-4 max-w-6xl mx-auto transition-colors duration-300">
+      <div data-aos="zoom-in">
+
       <TitleSections
         prim={t("WHAT I OFFER")}
         secon={t("High-quality web development services")}
@@ -28,6 +30,7 @@ const MainServ = () => {
           "Transforming ideas into modern, scalable, and responsive web applications tailored to elevate your digital presence.",
         )}
       />
+      </div>
       <MainCard Service={setSelectedService} />
       <InnerP Service={selectedService} setService={setSelectedService} />
     </section>

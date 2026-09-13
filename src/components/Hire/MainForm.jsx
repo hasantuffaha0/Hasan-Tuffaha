@@ -65,6 +65,7 @@ const MainForm = () => {
 
       <div className="w-full max-w-md">
         <textarea
+          data-aos="fade-up"
           placeholder={t("Tell me about your project")}
           name="message"
           id="message"
@@ -76,6 +77,7 @@ const MainForm = () => {
 
       <div className="w-full max-w-md">
         <button
+          data-aos="fade-up"
           type="submit"
           disabled={submitting}
           className="w-full py-4 px-6 bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-2xl shadow-lg transition-all duration-300 hover:shadow-purple-500/50 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center"

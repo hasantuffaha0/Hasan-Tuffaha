@@ -1,10 +1,9 @@
 import MagicBento from "./MagicBento";
-import TitleSections from './titles';
+import TitleSections from "./titles";
 import { useTranslation } from "react-i18next";
 import { GraduationCap, Atom, BriefcaseBusiness, Compass } from "lucide-react";
 
 const MainAbout = () => {
-  
   const { t } = useTranslation();
   const CardsDatas = [
     {
@@ -22,7 +21,7 @@ const MainAbout = () => {
               )}
             </p>
           </div>
-  
+
           <div className="border-t border-purple-900 dark:border-white/10 pt-6">
             <h3 className="text-xl font-bold text-purple-800 dark:text-purple-400 mb-3 flex items-center gap-2">
               {t("What drives me?")}
@@ -33,10 +32,10 @@ const MainAbout = () => {
               )}
             </p>
           </div>
-  
+
           <div className="pt-2">
             <a
-              href="#contact"
+              href="#hire"
               className="inline-block px-6 py-3 rounded-xl bg-linear-to-r from-purple-600 to-indigo-600 text-white font-semibold text-sm shadow-lg shadow-purple-600/30 hover:scale-105 transition-all duration-200"
             >
               {t("Let's Connect")}
@@ -51,7 +50,7 @@ const MainAbout = () => {
       content: (
         <>
           <div className="absolute -right-10 -bottom-10 w-40 h-40 bg-purple-600/20 rounded-full blur-3xl pointer-events-none" />
-  
+
           <div className="flex items-center gap-4">
             <div className="p-4 rounded-2xl bg-purple-600/20 border border-purple-500/30 text-purple-300 text-xl font-bold">
               <GraduationCap className="text-purple-900 dark:text-purple-300" />
@@ -67,7 +66,7 @@ const MainAbout = () => {
               </p>
             </div>
           </div>
-  
+
           <div className="flex items-center gap-4">
             <div className="p-4 rounded-2xl bg-purple-600/20 border border-purple-500/30 text-purple-300 text-xl font-bold">
               <Atom className="text-purple-900 dark:text-purple-300" />
@@ -81,10 +80,10 @@ const MainAbout = () => {
               </p>
             </div>
           </div>
-  
+
           <div className="flex items-center gap-4">
             <div className="p-4 rounded-2xl bg-purple-600/20 border border-purple-500/30 text-purple-300 text-xl font-bold">
-                <BriefcaseBusiness  className="text-purple-900 dark:text-purple-300" />
+              <BriefcaseBusiness className="text-purple-900 dark:text-purple-300" />
             </div>
             <div>
               <h4 className="text-purple-800 dark:text-purple-400 font-semibold text-base">
@@ -95,10 +94,10 @@ const MainAbout = () => {
               </p>
             </div>
           </div>
-  
+
           <div className="flex items-center gap-4">
             <div className="p-4 rounded-2xl bg-purple-600/20 border border-purple-500/30 text-purple-300 text-xl font-bold">
-              <Compass  className="text-purple-900 dark:text-purple-300" />
+              <Compass className="text-purple-900 dark:text-purple-300" />
             </div>
             <div>
               <h4 className="text-purple-800 dark:text-purple-400 font-semibold text-base">
@@ -115,11 +114,20 @@ const MainAbout = () => {
       ),
     },
   ];
-  
 
   return (
-    <section id="about" className="py-24 px-6 relative overflow-hidden flex justify-center flex-col items-center">
-      <TitleSections prim={'ABOUT ME'} secon={'Passionate Frontend Developer'} third={''} />
+    <section
+      id="about"
+      data-aos="fade-up"
+      className="py-24 px-6 relative overflow-hidden flex justify-center flex-col items-center"
+    >
+      <div data-aos="zoom-in">
+        <TitleSections
+          prim={"ABOUT ME"}
+          secon={"Passionate Frontend Developer"}
+          third={""}
+        />
+      </div>
       <MagicBento
         textAutoHide={true}
         enableStars
@@ -133,7 +141,7 @@ const MainAbout = () => {
         glowColor="132, 0, 255"
         disableAnimations={false}
         cardData={CardsDatas}
-        StylingLine='grid grid-cols-1 lg:grid-cols-12'
+        StylingLine="grid grid-cols-1 lg:grid-cols-12"
       />
     </section>
   );

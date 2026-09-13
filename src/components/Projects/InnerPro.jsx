@@ -4,12 +4,9 @@ import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import InnerPhoto from "./InnerPhotoProjects";
 
-
 const InnerPro = ({ Service, setService }) => {
   const { t } = useTranslation();
   const [imageOver, setImageOver] = useState(null);
-
-  
 
   return (
     <>
@@ -18,6 +15,7 @@ const InnerPro = ({ Service, setService }) => {
           <div
             className="fixed select-none inset-0 z-99999 flex items-center justify-center bg-black/60 dark:bg-black/80 backdrop-blur-md p-4 animate-fadeIn overflow-y-auto"
             onClick={() => setService()}
+            data-aos="fade"
           >
             <div
               className="relative max-w-7xl w-full max-h-[70vh] lg:max-h-[90vh] overflow-y-auto bg-white dark:bg-[#121118] border border-purple-300 dark:border-purple-500/40 p-6 md:p-8 rounded-3xl shadow-2xl text-gray-900 dark:text-white transition-colors duration-300 my-auto custom-scrollbar"

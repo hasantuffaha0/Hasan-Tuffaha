@@ -1,9 +1,7 @@
 import IMGweb from "../../assets/web.jpg";
-import IMGFigma from "../../assets/Ferramenta grátis para design de sites e produtos _ Figma.jpg";
 import Portfolio from "../../assets/projectsOne/one.png";
-import Landing from "../../assets/Landing.jpg";
 import { useTranslation } from "react-i18next";
-import { FaCode, FaFigma, FaRocket, FaUserTie } from "react-icons/fa";
+import { FaCode, FaUserTie } from "react-icons/fa";
 import one from "../../assets/projectsOne/one.png";
 import two from "../../assets/projectsOne/two.png";
 import three from "../../assets/projectsOne/three.png";
@@ -14,30 +12,17 @@ import seven from "../../assets/projectsOne/seven.png";
 import eight from "../../assets/projectsOne/eight.png";
 import nine from "../../assets/projectsOne/nine.png";
 import ten from "../../assets/projectsOne/ten.png";
+import tuns from "../../assets/image.png";
 
 const MainCard = ({ Service }) => {
   const { t } = useTranslation();
-  
 
   const services = [
-    {
-      id: "landing-page",
-      title: "Landing Page Development",
-      shortDesc:
-        "A fast, modern single-page website to showcase your business, products, or personal brand effectively.",
-      img: Landing,
-      icon: FaRocket,
-      notes: [
-        "FRONTEND DEVELOPMENT ONLY: I build the visual and interactive interface without backend servers or databases.",
-        "Content Required: The client must provide all text, images, and branding assets.",
-        "Free Deployment: Free assistance with live deployment on platforms like Vercel.",
-      ],
-    },
     {
       id: "portfolio-dev",
       title: "Personal & Professional Portfolio",
       shortDesc:
-      "Custom portfolio websites to showcase your projects, skills, and resume with a modern look.",
+        "Custom portfolio websites to showcase your projects, skills, and resume with a modern look.",
       img: Portfolio,
       icon: FaUserTie,
       notes: [
@@ -46,7 +31,7 @@ const MainCard = ({ Service }) => {
         "Free Deployment: Assistance with deployment on Vercel or GitHub Pages.",
       ],
       Photos: [one, two, three, four, five, six, seven, eight, nine, ten],
-      HrefTo: 'https://adnan-sakr.vercel.app/'
+      HrefTo: "https://adnan-sakr.vercel.app/",
     },
     {
       id: "web-app",
@@ -60,19 +45,8 @@ const MainCard = ({ Service }) => {
         "Content Required: API endpoints documentation and assets provided by client.",
         "Free Deployment: Free live deployment setup on Vercel.",
       ],
-    },
-    {
-      id: "figma-to-react",
-      title: "Figma to React Conversion",
-      shortDesc:
-        "Transforming Figma & UI designs into pixel-perfect, clean, and responsive React components.",
-      img: IMGFigma,
-      icon: FaFigma,
-      notes: [
-        "FRONTEND DEVELOPMENT ONLY: Design implementation without custom server logic.",
-        "Design Required: Client must provide original Figma design files.",
-        "Free Deployment: Project preview deployment included.",
-      ],
+      Photos: [tuns],
+      HrefTo: "https://hasantuffaha0.github.io/HT-Tunes/",
     },
   ];
   return (
@@ -81,6 +55,7 @@ const MainCard = ({ Service }) => {
         const Icon = service.icon;
         return (
           <div
+            data-aos="fade-up"
             key={service.id}
             onClick={() => Service(service)}
             className="cursor-pointer group"

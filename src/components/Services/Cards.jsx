@@ -181,6 +181,7 @@ const MainCard = ({ Service }) => {
         const Icon = service.icon;
         return (
           <div
+          data-aos="fade-up"
             key={service.id}
             onClick={() => Service(service)}
             className="cursor-pointer group"

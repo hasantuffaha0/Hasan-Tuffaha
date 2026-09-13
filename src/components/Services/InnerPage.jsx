@@ -16,6 +16,7 @@ const InnerP = ({ Service, setService }) => {
           <div
             className="fixed select-none inset-0 z-99999 flex items-center justify-center bg-black/60 dark:bg-black/80 backdrop-blur-md p-4 animate-fadeIn overflow-y-auto"
             onClick={() => setService(null)}
+            data-aos="fade"
           >
             <div
               className="relative max-w-2xl w-full max-h-[70vh] lg:max-h-[90vh] overflow-y-auto bg-white dark:bg-[#121118] border border-purple-300 dark:border-purple-500/40 p-6 md:p-8 rounded-3xl shadow-2xl text-gray-900 dark:text-white transition-colors duration-300 my-auto custom-scrollbar"
@@ -118,7 +119,7 @@ const InnerP = ({ Service, setService }) => {
               </div>
 
               <a
-                href="#contact"
+                href="#hire"
                 onClick={() => setService(null)}
                 className="w-full inline-flex justify-center items-center gap-2 py-3.5 px-6 rounded-2xl bg-purple-600 hover:bg-purple-700 text-white font-bold transition-all shadow-lg shadow-purple-600/30 text-center cursor-pointer"
               >

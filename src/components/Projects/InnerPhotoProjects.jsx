@@ -4,9 +4,9 @@ import { FaTimes, FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const InnerPhoto = ({ photo, setPhoto, project }) => {
   const photosList = project?.Photos || (photo ? [photo] : []);
-  const initialIndex = photosList.indexOf(photo) !== -1 ? photosList.indexOf(photo) : 0;
+  const initialIndex =
+    photosList.indexOf(photo) !== -1 ? photosList.indexOf(photo) : 0;
   const [currentIndex, setCurrentIndex] = useState(initialIndex);
-
 
   if (!photo) return null;
 
@@ -15,13 +15,16 @@ const InnerPhoto = ({ photo, setPhoto, project }) => {
   };
 
   const handlePrev = () => {
-    setCurrentIndex((prev) => (prev - 1 + photosList.length) % photosList.length);
+    setCurrentIndex(
+      (prev) => (prev - 1 + photosList.length) % photosList.length,
+    );
   };
 
   return createPortal(
     <div
       className="fixed inset-0 z-99999 flex items-center justify-center bg-black/70 dark:bg-black/85 backdrop-blur-md p-4 animate-fadeIn select-none overflow-y-auto"
       onClick={() => setPhoto(null)}
+      data-aos="fade"
     >
       <div
         className="relative max-w-5xl w-full max-h-[90vh] flex flex-col bg-white dark:bg-[#121118] border border-purple-300 dark:border-purple-500/40 p-6 md:p-8 rounded-3xl shadow-2xl text-gray-900 dark:text-white transition-colors duration-300 my-auto"
@@ -72,7 +75,7 @@ const InnerPhoto = ({ photo, setPhoto, project }) => {
         )}
       </div>
     </div>,
-    document.body
+    document.body,
   );
 };
 

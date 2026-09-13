@@ -19,7 +19,7 @@ const Mainskills = () => {
 
   return (
     <section className="min-h-screen flex items-center flex-col text-foreground py-16 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-6xl mx-auto space-y-4">
+      <div className="max-w-6xl mx-auto space-y-4" data-aos="zoom-in">
         <TitleSections
           prim={t("My Technical Expertise")}
           secon={t("My programming skills and capabilities")}
@@ -29,7 +29,7 @@ const Mainskills = () => {
         />
       </div>
 
-      <div className="w-[90%]">
+      <div className="w-[90%]" data-aos="fade-right">
         <div className="h-fit p-7 flex gap-3 md:gap-6 flex-col">
           <div className="flex md:gap-6 gap-2 flex-wrap">
             {categories.map((category) => (
@@ -47,7 +47,7 @@ const Mainskills = () => {
             ))}
           </div>
 
-          <div className="w-full">
+          <div className="w-full" data-aos="fade-up">
             <MagicBento
               textAutoHide={true}
               enableStars

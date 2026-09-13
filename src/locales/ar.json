@@ -111,5 +111,14 @@
   "Project Type" : "نوع المشروع",
   "Tell me about your project" : "أخبرني عن مشروعك",
   "Sending..." : "إرسال...",
-  "Send Message" : "إرسال رسالة"
+  "Send Message" : "إرسال رسالة",
+    "Portfolio": "معرض الأعمال",
+    "Building digital experiences with passion, clean code, and modern technologies.": "بناء تجارب رقمية شغوفة، بكود نظيف، وتقنيات حديثة.",
+    "All rights reserved.": "جميع الحقوق محفوظة.",
+    "Designed & Built by": "تم التصميم والتطوير بواسطة",
+    "by You": "بواسطتك",
+    "Message illustration": "صورة توضيحية للرسائل",
+    "Thanks for reaching out! I'll get back to you soon.": "شكرًا لتواصلك معي! سأقوم بالرد عليك قريباً.",
+    "Something went wrong. Please try again.": "حدث خطأ ما. يرجى المحاولة مرة أخرى.",
+    "Network error. Please check your connection.": "خطأ في الشبكة. يرجى التحقق من اتصالك بالإنترنت."
 }
