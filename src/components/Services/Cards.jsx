@@ -19,7 +19,7 @@ const MainCard = ({ Service }) => {
       title: "Landing Page Development",
       shortDesc:
         "A fast, modern single-page website to showcase your business, products, or personal brand effectively.",
-      price: "$60",
+      price: "$35",
       img: Landing,
       icon: FaRocket,
       whatYouGet: [
@@ -59,7 +59,7 @@ const MainCard = ({ Service }) => {
       title: "Personal & Professional Portfolio",
       shortDesc:
         "Custom portfolio websites to showcase your projects, skills, and resume with a modern look.",
-      price: "$80",
+      price: "$40",
       img: Portfolio,
       icon: FaUserTie,
       whatYouGet: [
@@ -99,7 +99,7 @@ const MainCard = ({ Service }) => {
       title: "Custom Web Application Development",
       shortDesc:
         "Building fast, responsive, and dynamic web applications using React.js and modern tools.",
-      price: "$150",
+      price: "$70",
       img: IMGweb,
       icon: FaCode,
       whatYouGet: [
@@ -139,7 +139,7 @@ const MainCard = ({ Service }) => {
       title: "Figma to React Conversion",
       shortDesc:
         "Transforming Figma & UI designs into pixel-perfect, clean, and responsive React components.",
-      price: "$80",
+      price: "$40",
       img: IMGFigma,
       icon: FaFigma,
       whatYouGet: [
