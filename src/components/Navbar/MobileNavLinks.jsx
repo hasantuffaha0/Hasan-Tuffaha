@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import React, { useRef, useEffect } from "react";
+import React from "react";
 
 const Links = [
   { link: "About", href: "#about" },
@@ -11,28 +11,9 @@ const Links = [
 
 const MobileNav = ({ open, setOpen }) => {
   const { t } = useTranslation();
-  const navRef = useRef(null);
-
-  useEffect(() => {
-    if (!open) return;
-
-    const handleClickOutside = (e) => {
-      if (navRef.current && !navRef.current.contains(e.target)) {
-        setOpen(false);
-      }
-    };
-
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, [open, setOpen]);
-
-  const handleLinkClick = () => {
-    setOpen(false);
-  };
 
   return (
     <div
-      ref={navRef}
       className={`${
         open
           ? "max-h-96 opacity-100 scale-100 pointer-events-auto"
@@ -47,8 +28,10 @@ const MobileNav = ({ open, setOpen }) => {
         <React.Fragment key={link}>
           <a
             href={href}
-            onClick={handleLinkClick}
-            style={{ transitionDelay: open ? `${index * 60}ms` : "0ms" }}
+            onClick={() => setOpen(false)}
+            style={{
+              transitionDelay: open ? `${index * 60}ms` : "0ms",
+            }}
             className={`w-full text-center py-3 text-lg font-medium
               text-purple-900 dark:text-purple-400
               hover:text-white hover:bg-purple-500/80
@@ -61,6 +44,7 @@ const MobileNav = ({ open, setOpen }) => {
           >
             {t(link)}
           </a>
+
           {index !== Links.length - 1 && (
             <span className="mx-auto w-[85%] h-px bg-purple-900/20 dark:bg-purple-400/10" />
           )}

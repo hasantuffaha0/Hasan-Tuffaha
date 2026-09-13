@@ -8,7 +8,7 @@ const MainAbout = () => {
   const CardsDatas = [
     {
       cardClassName:
-        "lg:col-span-7 p-8 md:p-10 z-2 rounded-[30px] bg-white dark:bg-white/10 shadow-purple-900/40 backdrop-blur-2xl border border-purple-800/50 shadow-2xl flex flex-col gap-6",
+        "lg:col-span-7 p-5 md:p-10 z-2 rounded-[30px] bg-white dark:bg-white/10 shadow-purple-900/40 backdrop-blur-2xl border border-purple-800/50 shadow-2xl flex flex-col gap-6",
       content: (
         <>
           <div>
@@ -46,7 +46,7 @@ const MainAbout = () => {
     },
     {
       cardClassName:
-        "lg:col-span-5 p-8 rounded-[30px] bg-white z-2 dark:bg-white/10 backdrop-blur-2xl border-purple-800/50 border shadow-2xl shadow-purple-900/40 flex flex-col gap-6 relative overflow-hidden",
+        "lg:col-span-5 p-5 rounded-[30px] bg-white z-2 dark:bg-white/10 backdrop-blur-2xl border-purple-800/50 border shadow-2xl shadow-purple-900/40 flex flex-col gap-6 relative overflow-hidden",
       content: (
         <>
           <div className="absolute -right-10 -bottom-10 w-40 h-40 bg-purple-600/20 rounded-full blur-3xl pointer-events-none" />

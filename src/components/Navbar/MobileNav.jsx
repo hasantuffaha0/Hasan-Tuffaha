@@ -1,11 +1,29 @@
-import { useState } from "react";
-import MobileNav from './MobileNavLinks';
+import { useEffect, useRef, useState } from "react";
+import MobileNav from "./MobileNavLinks";
 
 const MobileElementNav = () => {
   const [open, setOpen] = useState(false);
+  const menuRef = useRef(null);
+
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (menuRef.current && !menuRef.current.contains(e.target)) {
+        setOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
-    <div className="flex justify-center sm:hidden relative flex-col items-center">
+    <div
+      ref={menuRef}
+      className="flex justify-center sm:hidden relative flex-col items-center"
+    >
       <div className="h-full flex justify-center items-center px-4">
         <button
           onClick={() => setOpen(!open)}
@@ -32,7 +50,8 @@ const MobileElementNav = () => {
           />
         </button>
       </div>
-      <MobileNav MobileNav open={open} setOpen={setOpen}/>
+
+      <MobileNav open={open} setOpen={setOpen} />
     </div>
   );
 };
