@@ -37,12 +37,12 @@ const SkillsContent = ({ cat }) => {
       : skillsData.filter((item) => item.category === cat);
 
   const Styling =
-    "p-3 md:p-10 z-2 w-[100%] rounded-[30px] bg-white dark:bg-white/10 shadow-purple-900/40 backdrop-blur-2xl border border-purple-800/50 shadow-2xl";
+    "md:p-5 lg:p-8 p-3 z-2 w-[100%] rounded-[30px] bg-white dark:bg-white/10 shadow-purple-900/40 backdrop-blur-2xl border border-purple-800/50 shadow-2xl";
   return [
     {
       cardClassName: Styling,
       content: (
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+        <div className="grid max-[375px]:grid-cols-1 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-3">
           {filteredSkills.map(({ name, icon: Icon, style }, index) => (
             <div
               key={index}
@@ -51,7 +51,7 @@ const SkillsContent = ({ cat }) => {
               <Icon
                 className={`${style} text-xl md:text-2xl lg:text-3xl xl:text-4xl shrink-0`}
               />
-              <span className="text-md lg:text-xl font-medium">{t(name)}</span>
+              <span className="text-sm lg:text-xl font-medium">{t(name)}</span>
             </div>
           ))}
         </div>

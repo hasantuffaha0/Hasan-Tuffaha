@@ -29,7 +29,8 @@ const Mainskills = () => {
         />
       </div>
 
-      <div className="w-[110%] flex flex-col items-center md:w-[95%]" data-aos="fade-right">
+      <div className="w-[110%] md:w-[90vw]" >
+        {/* //data-aos="fade-right" */}
         <div className="h-fit p-7 flex gap-3 md:gap-6 flex-col">
           <div className="flex md:gap-6 gap-2 flex-wrap">
             {categories.map((category) => (
