@@ -28,8 +28,8 @@ const ModsBChange = () => {
       className="p-2 rounded-full dark:hover:bg-white/10 hover:bg-gray-400/40 transition-colors"
       aria-label="Toggle Theme"
     >
-      <MdLightMode className="hidden dark:block hover:rotate-90 duration-300 text-2xl text-purple-400" />
-      <MdDarkMode className="dark:hidden block duration-300 text-2xl text-purple-800" />
+      <MdLightMode className="hidden dark:block hover:rotate-90 duration-300 text-md md:text-2xl text-purple-400" />
+      <MdDarkMode className="dark:hidden block duration-300 text-xl md:text-2xl text-purple-800" />
     </button>
   );
 };

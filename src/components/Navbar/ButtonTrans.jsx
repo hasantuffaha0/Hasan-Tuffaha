@@ -54,7 +54,7 @@ const ButtonTranslate = () => {
       onClick={toggleLanguage}
       dir="ltr"
       aria-label="Toggle language"
-      className={`relative w-18 h-9 p-1 rounded-full bg-white dark:bg-[#1e1e24] border transition-all duration-300 cursor-pointer active:scale-90 focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-400/60 ${
+      className={`relative w-13 h-6.5 md:w-18 md:h-9 p-1 rounded-full bg-white dark:bg-[#1e1e24] border transition-all duration-300 cursor-pointer active:scale-90 focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-400/60 ${
         justChanged
           ? "border-purple-400/80 shadow-[0_0_20px_rgba(168,85,247,0.7)]"
           : "border-purple-500/30 shadow-inner shadow-black/40 hover:border-purple-400/50"
