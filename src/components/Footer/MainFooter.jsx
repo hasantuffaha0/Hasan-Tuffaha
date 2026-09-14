@@ -34,9 +34,9 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-white text-purple-700 dark:bg-slate-900 dark:text-purple-100 py-12 px-4 border-t border-purple-500/20 transition-colors duration-300">
-      <div data-aos="fade" className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
-        <div className="flex flex-col items-center md:items-start text-center md:text-start gap-2">
+    <footer className="bg-white text-purple-700 dark:bg-slate-900 dark:text-purple-100 py-10 md:py-12 px-4 sm:px-6 lg:px-8 border-t border-purple-500/20 transition-colors duration-300">
+      <div data-aos="fade" className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 md:gap-8">
+        <div className="flex flex-col items-center md:items-start text-center md:text-start gap-2.5">
           <h3 className="text-2xl font-bold tracking-wider text-purple-600 dark:text-purple-400">
             {t("Portfolio")}
           </h3>
@@ -47,7 +47,7 @@ const Footer = () => {
           </p>
         </div>
 
-        <div data-aos="fade" className="flex items-center gap-5">
+        <div data-aos="fade" className="flex items-center gap-4 md:gap-5">
           {Contacts.map(({ ConHref, Aria, Icon }, index) => (
             <a
               href={ConHref}
@@ -63,11 +63,11 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto mt-8 pt-6 border-t border-purple-500/10 flex flex-col sm:flex-row items-center justify-between text-xs text-purple-600/70 dark:text-purple-400/60 gap-4">
+      <div className="max-w-7xl mx-auto mt-8 md:mt-8 pt-6 border-t border-purple-500/10 flex flex-col sm:flex-row items-center justify-between text-xs text-purple-600/70 dark:text-purple-400/60 gap-3 sm:gap-4">
         <p>
           © {currentYear} — {t("All rights reserved.")}
         </p>
-        <p className="flex items-center gap-1">
+        <p className="flex items-center gap-1.5">
           {t("Designed & Built by")} <a href="">{t("Hasan Tuffaha")}</a>{" "}
           <FaHeart className="text-red-500 mx-0.5" size={12} />
         </p>

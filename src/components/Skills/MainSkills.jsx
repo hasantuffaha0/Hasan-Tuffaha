@@ -18,7 +18,7 @@ const Mainskills = () => {
   const cardsDatas = SkillsContent({ cat });
 
   return (
-    <section className="min-h-screen flex items-center flex-col text-foreground py-4 md:py-16 px-4 sm:px-6 lg:px-8">
+    <section className="min-h-screen flex items-center flex-col text-foreground py-10 md:py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto space-y-4" data-aos="zoom-in">
         <TitleSections
           prim={t("My Technical Expertise")}
@@ -29,15 +29,15 @@ const Mainskills = () => {
         />
       </div>
 
-      <div className="w-[103%] sm:w-full md:w-[90vw]" >
-        {/* //data-aos="fade-right" */}
-        <div className="h-fit flex gap-2 md:gap-6 flex-col">
-          <div className="flex md:gap-6 gap-1 flex-wrap">
+      <div className="w-[103%] sm:w-full md:w-[90vw]" data-aos="fade-right">
+       
+        <div className="h-fit flex gap-5 md:gap-6 flex-col">
+          <div className="flex md:gap-6 gap-2 flex-wrap">
             {categories.map((category) => (
               <button
                 key={category.id}
                 onClick={() => setCat(category.id)}
-                className={`py-1 px-2 md:py-3 md:px-4 rounded-xl cursor-pointer backdrop-blur-xl border shadow-md transition-all duration-300 ${
+                className={`py-1.5 px-2.5 md:py-2 md:px-3 lg:py-3 lg:px-4 text-sm md:text-base rounded-xl cursor-pointer backdrop-blur-xl border shadow-md transition-all duration-300 ${
                   cat === category.id
                     ? "bg-purple-600 text-white border-purple-400 shadow-purple-500/30"
                     : "bg-white/70 dark:text-purple-200 text-purple-500 dark:bg-[#121118]/80 border-purple-400/30 dark:border-purple-500/10 hover:border-purple-500/60"

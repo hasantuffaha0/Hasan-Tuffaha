@@ -42,14 +42,14 @@ const SkillsContent = ({ cat }) => {
     {
       cardClassName: Styling,
       content: (
-        <div className="grid max-[336px]:grid-cols-1 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-3">
+        <div className="grid max-[336px]:grid-cols-1 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-2.5 md:gap-3.5 lg:gap-4">
           {filteredSkills.map(({ name, icon: Icon, style }, index) => (
             <div
               key={index}
-              className="flex flex-row gap-3 items-center shadow-purple-900/40 border border-purple-800/50 shadow-2xl p-3 rounded-3xl bg-white/5 hover:scale-105 transition-transform duration-300"
+              className="flex flex-row gap-2.5 md:gap-3 items-center shadow-purple-900/40 border border-purple-800/50 shadow-2xl p-2.5 md:p-3.5 lg:p-4 rounded-2xl md:rounded-3xl bg-white/5 hover:scale-105 transition-transform duration-300"
             >
               <Icon
-                className={`${style} text-xl md:text-2xl lg:text-3xl xl:text-4xl shrink-0`}
+                className={`${style} text-lg md:text-2xl lg:text-3xl xl:text-4xl shrink-0`}
               />
               <span className="text-sm lg:text-xl font-medium">{t(name)}</span>
             </div>

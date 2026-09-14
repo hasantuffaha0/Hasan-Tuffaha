@@ -50,7 +50,7 @@ const MainCard = ({ Service }) => {
     },
   ];
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-8">
       {services.map((service) => {
         const Icon = service.icon;
         return (
@@ -60,9 +60,9 @@ const MainCard = ({ Service }) => {
             onClick={() => Service(service)}
             className="cursor-pointer group"
           >
-            <div className="bg-white/80 dark:bg-[#121118]/80 backdrop-blur-xl p-3 md:p-4 rounded-[22px] border border-purple-300/50 dark:border-purple-500/20 shadow-xl hover:border-purple-500/60 dark:hover:border-purple-500/50 transition-all duration-300 flex flex-col justify-between h-full">
+            <div className="bg-white/80 dark:bg-[#121118]/80 backdrop-blur-xl p-3 md:p-4 rounded-[18px] md:rounded-[22px] border border-purple-300/50 dark:border-purple-500/20 shadow-xl hover:border-purple-500/60 dark:hover:border-purple-500/50 transition-all duration-300 flex flex-col justify-between h-full">
               <div>
-                <div className="overflow-hidden rounded-xl mb-2 h-60 border border-purple-200 dark:border-purple-900/30 relative">
+                <div className="overflow-hidden rounded-xl mb-2 md:mb-3 h-40 md:h-60 border border-purple-200 dark:border-purple-900/30 relative">
                   <img
                     src={service.img}
                     alt={service.title}
@@ -70,9 +70,9 @@ const MainCard = ({ Service }) => {
                   />
                 </div>
 
-                <div className="flex items-center gap-3 mb-1">
-                  <Icon className="text-purple-600 dark:text-purple-400 text-2xl shrink-0" />
-                  <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-300 transition-colors line-clamp-1">
+                <div className="flex items-center gap-2 md:gap-3 mb-1">
+                  <Icon className="text-purple-600 dark:text-purple-400 text-xl md:text-2xl shrink-0" />
+                  <h3 className="text-lg md:text-xl font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-300 transition-colors line-clamp-1">
                     {t(service.title)}
                   </h3>
                 </div>
@@ -82,7 +82,7 @@ const MainCard = ({ Service }) => {
                 </p>
               </div>
 
-              <div className="mt-3 pt-2 border-t border-purple-200 dark:border-purple-500/10 flex justify-between items-center text-purple-600 dark:text-purple-400 font-medium text-sm">
+              <div className="mt-2.5 md:mt-3 pt-2 border-t border-purple-200 dark:border-purple-500/10 flex justify-between items-center text-purple-600 dark:text-purple-400 font-medium text-sm">
                 <span>{t("Click for details")}</span>
                 <span className="text-lg transition-transform group-hover:translate-x-1">
                   {t("→")}
