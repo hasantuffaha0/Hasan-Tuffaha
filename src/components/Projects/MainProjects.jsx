@@ -20,7 +20,7 @@ const MainPro = () => {
   }, [selectedService]);
 
   return (
-    <section className="py-16 px-4 max-w-7xl mx-auto transition-colors duration-300">
+    <section className="md:py-16 px-3 max-w-7xl mx-auto transition-colors duration-300">
       <div data-aos="zoom-in">
         <TitleSections
           data-aos="zoom-in"

@@ -6,7 +6,7 @@ const Row = () => {
   return (
     <a
       href="#about"
-      className="relative z-10 translate-y-10 mb-15 md:-translate-y-18 mx-auto w-fit md:-mb-10 flex flex-col items-center gap-2 cursor-pointer group"
+      className="relative z-10 translate-y-20 mb-20 md:-translate-y-18 mx-auto w-fit md:-mb-10 flex flex-col items-center gap-2 cursor-pointer group"
     >
       <span className="text-xs md:text-sm font-medium tracking-wider pb-1 text-purple-600 dark:text-purple-300 group-hover:text-purple-400 transition-colors duration-300 drop-shadow-sm">
         {t('Explore More')}

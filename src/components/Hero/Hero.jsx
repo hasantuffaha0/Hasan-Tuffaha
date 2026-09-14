@@ -42,13 +42,13 @@ const HeroText = () => {
           )}
         </p>
 
-        <div className="flex items-center gap-3 md:gap-6 mt-7">
+        <div className="flex items-center gap-3 md:gap-6 mt-3 md:mt-7">
           {buttons.map(({ write, Href, style }) => (
             <ButtonNav
               Href={Href}
               write={write}
               key={write}
-              className={`${style} cursor-pointer rounded-full text-[10px] md:text-sm font-semibold transition-all shadow-[0_0_15px_rgba(168,85,247,0.35)] hover:shadow-purple-500/30`}
+              className={`${style} cursor-pointer rounded-full text-[14px] md:text-sm font-semibold transition-all shadow-[0_0_15px_rgba(168,85,247,0.35)] hover:shadow-purple-500/30`}
             />
           ))}
         </div>

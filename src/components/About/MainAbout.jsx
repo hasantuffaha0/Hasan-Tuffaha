@@ -118,8 +118,8 @@ const MainAbout = () => {
   return (
     <section
       id="about"
-      data-aos="fade-up"
-      className="py-24 px-6 relative overflow-hidden flex justify-center flex-col items-center"
+      // data-aos="fade-up"
+      className="py-10 md:py-24 px-1 relative overflow-hidden flex justify-center flex-col items-center"
     >
       <div data-aos="zoom-in">
         <TitleSections

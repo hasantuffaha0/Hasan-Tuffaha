@@ -42,7 +42,7 @@ const SkillsContent = ({ cat }) => {
     {
       cardClassName: Styling,
       content: (
-        <div className="grid max-[375px]:grid-cols-1 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-3">
+        <div className="grid max-[336px]:grid-cols-1 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-3">
           {filteredSkills.map(({ name, icon: Icon, style }, index) => (
             <div
               key={index}

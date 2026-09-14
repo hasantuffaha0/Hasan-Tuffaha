@@ -27,7 +27,7 @@ const IconHero = () => {
           target="_blank"
           rel="noreferrer"
           href={href}
-          className={`${style} w-8 h-8 sm:w-9.5 sm:h-9.5 md:w-11 md:h-11 flex items-center justify-center rounded-full bg-white/70 dark:bg-[#1e1e24]/80 backdrop-blur-xl border border-purple-400/80 dark:border-white/20 text-purple-600 dark:text-white text-lg transition-all duration-300 hover:scale-110 hover:border-purple-400/60 hover:shadow-[0_0_15px_rgba(168,85,247,0.4)]`}
+          className={`${style} w-11 h-11 flex items-center justify-center rounded-full bg-white/70 dark:bg-[#1e1e24]/80 backdrop-blur-xl border border-purple-400/80 dark:border-white/20 text-purple-600 dark:text-white text-lg transition-all duration-300 hover:scale-110 hover:border-purple-400/60 hover:shadow-[0_0_15px_rgba(168,85,247,0.4)]`}
         >
           <Title />
         </a>

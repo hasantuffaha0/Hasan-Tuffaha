@@ -50,7 +50,7 @@ const MainCard = ({ Service }) => {
     },
   ];
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
       {services.map((service) => {
         const Icon = service.icon;
         return (
@@ -60,7 +60,7 @@ const MainCard = ({ Service }) => {
             onClick={() => Service(service)}
             className="cursor-pointer group"
           >
-            <div className="bg-white/80 dark:bg-[#121118]/80 backdrop-blur-xl p-6 rounded-[22px] border border-purple-300/50 dark:border-purple-500/20 shadow-xl hover:border-purple-500/60 dark:hover:border-purple-500/50 transition-all duration-300 flex flex-col justify-between h-full">
+            <div className="bg-white/80 dark:bg-[#121118]/80 backdrop-blur-xl p-3 md:p-4 rounded-[22px] border border-purple-300/50 dark:border-purple-500/20 shadow-xl hover:border-purple-500/60 dark:hover:border-purple-500/50 transition-all duration-300 flex flex-col justify-between h-full">
               <div>
                 <div className="overflow-hidden rounded-xl mb-2 h-60 border border-purple-200 dark:border-purple-900/30 relative">
                   <img
