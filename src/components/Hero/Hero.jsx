@@ -16,7 +16,7 @@ const HeroText = () => {
       write: t("Download CV"),
       style:
         "lg:px-8 md:px-6.5 min-[840px]:px-7 px-6 py-3 rounded-xl font-medium text-purple-800 dark:text-purple-300 bg-transparent border-2 border-purple-700/80 dark:border-purple-500/60 transition-all duration-300 hover:bg-purple-500/10 hover:border-purple-900 dark:hover:border-purple-400 hover:text-gray-700 dark:hover:text-white hover:scale-105 active:scale-95 cursor-pointer",
-      Href: "",
+      Href: "https://doc-0c-70-docstext.googleusercontent.com/export/12o0cpb8u3srg1uehmkvbov78s/h50635rsj3jgm4pk0f0qhabg7o/1790449725000/110755388642704907337/110755388642704907337/1m3_rYlx_R47ace1q508VcZcyRJNB9Q9KcNR8lUxodUk?format=docx&dat=AEnQ8CedPNv1bl44iB_xrJcjwn-pg4rPRJ64EsU-Spqg-ETz1tI8t1CJNsA-_GyYeZfchp7tyIeBbYYq8DraiTMcpUEOe3Os3OnqwcZZtXekex28BHZye9TIii047Ez2meqXcuqggOaxxOn5S0Wa5QxkdgOAktSvTavKAbm2O8RuiMAV0w_7JHs3eQHPrJAKw_a24-PskKA8EhVPCX96sMXtIKsilgJ-G9DiAjlwHuVDoWcmw-eg04ktJyRZEWnEYh1p-pAUnmt4gGqdnthtz9Ipdn9rM1Q5xe5TqyJeaoo9kF_touSPgZRuswXtiXQMaLyTc0OmqwD2h3l83982yi_swVyIwNn_gStzKpEjpFZlzunwDi_dFaZcRq_HHLOOkAOgT7qQ2bHEdeADYhk9xRx88CyB8ac_nD_YMVLbTPrG-drGV9utYs7bE-n3Fp1Qm6xamrZ4OUqLzB3lKwj15Pjh182DKLj4XaIg7DPjYv8QcRjv-E2S_EjWTCuwwjwt-oMup6iJ9ZJ3Ok4ntRfAhP0CA6r76-797RHAAWQKcCVdQHNmORXK-BzoH1H1kLBJPBcumyCbRzyDm8mZjjzU50Z-V0aS4JFcqaNO6OdS53DSzWUtCaTVT8CT8aN_kpzH_vfKAMVqsRONqPz8Wtn34bE3SU6GHNIiqBLmQ0v_VLfMVdv1QT1IlV4mo_x89JtkgN4hG5FP4QyaH2pDQwqDEFt6uedIUgTbh6pfHvzzPShkxEv5z8osXeeXcOOxo4vfcsHVciiMzKdGjkVtqWBd7i83ID1AokvAxOxqyiI5egLJvL-7VpeBkn2NTVoFxG-iQ6FeDZwk_d1xA76cT5g1RzxC7whyKV8wu5YoAUCMv1vCS_NF3TAMSFCYX40sDBKXMEcw9ANOxA_doAmUFqiA4ROmBoWrpkj2cBM-UQMzHO6JIvjWEx3vM7DrhQuRxMxdzkD6dAVBci65IORCFv96ow2Ifz0XzAheGFd4SRSgZMBiwuMIDr8EMRv2li2_AyRdIONb",
     },
   ];
 
