@@ -1,76 +1,78 @@
-import { useTranslation } from "react-i18next";
-import {
-  FaGithub,
-  FaLinkedin,
-  FaWhatsapp,
-  FaEnvelope,
-  FaHeart,
-} from "react-icons/fa";
+import { AiFillCode } from "react-icons/ai";
+import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
-  const { t } = useTranslation();
-  const currentYear = new Date().getFullYear();
-  const Contacts = [
-    {
-      ConHref: "https://github.com/hasantuffaha0",
-      Aria: "GitHub",
-      Icon: FaGithub,
-    },
-    {
-      ConHref: "https://www.linkedin.com/in/hasantuffaha/",
-      Aria: "LinkedIn",
-      Icon: FaLinkedin,
-    },
-    {
-      ConHref: "https://wa.me/201011308020",
-      Aria: "Whatsapp",
-      Icon: FaWhatsapp,
-    },
-    {
-      ConHref: "mailto:hasatuffaha74@gmail.com",
-      Aria: "Email",
-      Icon: FaEnvelope,
-    },
-  ];
-
   return (
-    <footer className="bg-white text-purple-700 dark:bg-slate-900 dark:text-purple-100 py-10 md:py-12 px-4 sm:px-6 lg:px-8 border-t border-purple-500/20 transition-colors duration-300">
-      <div data-aos="fade" className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 md:gap-8">
-        <div className="flex flex-col items-center md:items-start text-center md:text-start gap-2.5">
-          <h3 className="text-2xl font-bold tracking-wider text-purple-600 dark:text-purple-400">
-            {t("Portfolio")}
-          </h3>
-          <p className="text-sm text-purple-600/80 dark:text-purple-300/80 max-w-sm">
-            {t(
-              "Building digital experiences with passion, clean code, and modern technologies.",
-            )}
+    <footer className="bg-white dark:bg-[#0A0E17] py-10 md:py-12 px-4 sm:px-6 lg:px-12 transition-colors duration-300">
+      <div className="flex justify-between gap-3 w-full text-[#B9CACB]">
+        {/* upper */}
+        <div className="w-[35%] flex flex-col gap-4">
+          {/* right */}
+          <p className="text-white text-2xl">
+            HT
+            <span className="inline-block w-2 h-2 rounded-full me-3 ms-1 bg-[#00F0FF] shadow-[0_0_10px_2px_#00F0FF]"></span>
+            Hasan Tuffaha{" "}
+            <span className="text-[#B9CACB] text-base">(حسن تفاحة)</span>{" "}
           </p>
+          <p className="text-xl">
+            Frontend Architect & Systems Engineer crafting bespoke digital
+            surfaces with pixel-perfection, reactive state architectures, and
+            high-frequency luminescent micro-interactions.
+          </p>
+          <div className="flex gap-3">
+            <button className="bg-[#1C1F29] outline-none px-4 py-1 flex gap-3 items-center">
+              <AiFillCode />
+              github.com/hasantuffaha0
+            </button>
+            <button className="bg-[#1C1F29] outline-none px-4 py-1 flex gap-3 items-center">
+              <FaLinkedin />
+              LinkedIn
+            </button>
+          </div>
         </div>
-
-        <div data-aos="fade" className="flex items-center gap-4 md:gap-5">
-          {Contacts.map(({ ConHref, Aria, Icon }, index) => (
-            <a
-              href={ConHref}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={Aria}
-              key={index}
-              className="p-3 rounded-full bg-purple-50 dark:bg-slate-800 border border-purple-500/30 text-purple-600 dark:text-purple-300 hover:text-white hover:bg-purple-600 dark:hover:bg-purple-600 hover:shadow-[0_0_15px_rgba(168,85,247,0.4)] transition-all duration-300"
-            >
-              <Icon size={20} />
-            </a>
-          ))}
+        <div className="w-[15%] flex items-center gap-4 flex-col">
+          {/* center */}
+          <p className="text-[#00F0FF] w-full uppercase">navigation</p>
+          <div className="flex w-full flex-col gap-2">
+            <a href="">About Narrative</a>
+            <a href="">Technical Stack</a>
+            <a href="">Specialized Services</a>
+            <a href="">Featured Case Studies</a>
+            <a href="">Work Experience</a>
+            <a href="">Contract & Inquiries</a>
+          </div>
+        </div>
+        <div className="w-[35%] flex flex-col gap-4">
+          {/* left */}
+          <p className="text-[#00F0FF] uppercase">Engineering Status</p>
+          <div className="dark:bg-[#1C1F29] p-4 w-md flex flex-col gap-2">
+            {/* container in left side */}
+            <p className="flex items-center gap-3 text-xl text-white">
+              <span className="relative flex h-2 w-2 shrink-0">
+                <span className="absolute inline-flex h-full w-full rounded-full bg-[#00F0FF] opacity-75 animate-ping"></span>
+                <span className="relative inline-flex h-2 w-2 rounded-full bg-[#00F0FF] shadow-[0_0_10px_#00F0FF]"></span>
+              </span>
+              Available for Freelance & Contracts
+            </p>
+            <p className="text-md">
+              Open to worldwide remote positions, high-impact consulting
+              engagements, and bespoke frontend engineering.
+            </p>
+            <p className="text-[#38BDF8]">
+              Timezone: GMT+3 &nbsp; / &nbsp; Remote Ready
+            </p>
+          </div>
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto mt-8 md:mt-8 pt-6 border-t border-purple-500/10 flex flex-col sm:flex-row items-center justify-between text-xs text-purple-600/70 dark:text-purple-400/60 gap-3 sm:gap-4">
-        <p>
-          © {currentYear} — {t("All rights reserved.")}
-        </p>
-        <p className="flex items-center gap-1.5">
-          {t("Designed & Built by")} <a href="">{t("Hasan Tuffaha")}</a>{" "}
-          <FaHeart className="text-red-500 mx-0.5" size={12} />
-        </p>
+      <div className="flex justify-between text-[#B9CACB] mt-15">
+        {/* lower */}
+        <p>© 2025 Hasan Tuffaha. All rights reserved.</p>
+        <div className="flex gap-4 items-center">
+          <p className="text-[#38BDF8]">Hassan Tuffaha's Portfolio </p>
+          <span className="w-1 h-1 bg-[#B9CACB] rounded-full"></span>
+          <p>v2.4.0</p>
+        </div>
       </div>
     </footer>
   );
