@@ -67,7 +67,7 @@ const Footer = () => {
 
       <div className="flex justify-between text-[#B9CACB] mt-15">
         {/* lower */}
-        <p>© 2025 Hasan Tuffaha. All rights reserved.</p>
+        <p>© 2025 Hasan Tuffaha. All rights reserved</p>
         <div className="flex gap-4 items-center">
           <p className="text-[#38BDF8]">Hassan Tuffaha's Portfolio </p>
           <span className="w-1 h-1 bg-[#B9CACB] rounded-full"></span>
