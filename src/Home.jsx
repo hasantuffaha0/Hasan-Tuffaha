@@ -21,7 +21,7 @@ function Home() {
   }, []);
 
   return (
-    <div className="select-none scroll-smooth overflow-x-hidden">
+    <div className="scroll-smooth overflow-x-hidden">
       <div
         id="hero"
         className="relative min-h-screen flex flex-col justify-between overflow-hidden"
